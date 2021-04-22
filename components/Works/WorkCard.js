@@ -6,7 +6,6 @@ import BrowserFrame from '../Frames/BrowserFrame'
 
 export default function WorkCard({ work }) {
     const { title, text, demoLink, githubLink, slug, stack, thumbnail } = work.fields
-   // const tools = stack.map((item) => <span>{item}</span>)
     return (
         <>
         <div className={styles.container}>
@@ -15,7 +14,6 @@ export default function WorkCard({ work }) {
                 <div>
                     {documentToReactComponents(text)}
                     <div className={styles.details}>
-                        {/* <a href={demoLink} target="_blank" rel="noreferrer">{demoLink}</a> */}
                         <Link href={'/projects/' + slug}>
                             <a>Details...</a>
                         </Link>

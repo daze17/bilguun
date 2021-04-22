@@ -70,6 +70,12 @@
     justify-content: center;
     align-items: center;
 }
+.switch_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .moon_button, .moon_button_dis{
     width: 35px;
     cursor: pointer;
@@ -88,16 +94,15 @@
     position: absolute;
 }
 .sun_button_dis, .moon_button_dis{
-transform: translateY(-150%);
+    transform: translateY(-150%);
     transition: all 0.5s ease;
     visibility: hidden;
     position: absolute;
 }
-
 .burger_menu{
     display: none;
-    
 }
+
 @media screen and (max-width: 800px) {
     .navbar {
       justify-content: none;

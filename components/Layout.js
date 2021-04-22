@@ -3,6 +3,7 @@ import Footer from './Footer/Footer'
 import Navbar from './Navbar/Navbar'
 import { useCycle } from 'framer-motion'
 import SideDrawer from './SideDrawer/SideDrawer'
+import useDarkMode from 'use-dark-mode';
 
 export default function Layout({ children }) {
     const [isOpen, toggleOpen] = useCycle(false, true)
@@ -28,42 +29,18 @@ export default function Layout({ children }) {
         }
         lastScrollTop = st <= 50 ? 50 : st;
     }
-
-    const [darkMode, setDarkMode] = useState(false)
-    useEffect(()=>{
-        localStorage.setItem('dark', JSON.stringify(darkMode));
-        (darkMode) ? document.documentElement.setAttribute('data-theme', 'dark') : document.documentElement.setAttribute('data-theme', 'light');
-    },[darkMode]);
-
-    function getInitialMode() {
-      const isReturningUser = "dark" in localStorage;
-      const savedMode = JSON.parse(localStorage.getItem('dark'));
-      const userPrefersDark = getPrefColorSheme();
-      if (isReturningUser){
-          return savedMode;
-      } else if (userPrefersDark) {
-          return true;
-      } else {
-          return false;
-      }
-    }
-    function getPrefColorSheme(){
-        if(!window.matchMedia) return;
-        return window.matchMedia("(prefers-color-scheme: dark)").matches;
-    }
-    
-    
+    const darkMode = useDarkMode(false);
     return (
         <div>
             <Navbar 
                 toggleDrawer={() => toggleOpen()} 
                 scroll={navScroll} 
-                darkMode={darkMode} 
-                setDarkMode={setDarkMode}/>
+                setDarkMode={darkMode.toggle}
+                checked={darkMode.value}/>
             <SideDrawer 
                 isShown={isOpen}                 
                 closeDrawer={() => toggleOpen()}
-                setDarkMode={setDarkMode}
+                setDarkMode={darkMode.toggle}
                 darkMode={darkMode}/>
             { children }
             <Footer/>

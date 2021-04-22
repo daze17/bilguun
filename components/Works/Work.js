@@ -2,7 +2,6 @@ import styles from './Work.module.css'
 import WorkCard from './WorkCard'
 
 export default function Projects({works}) {
-    console.log(works)
     return (
         <div id="works" className={styles.container}>
             <div className={styles.wrapper}>

@@ -55,7 +55,6 @@ export default function RecipeDetails({ projects }) {
   if(!projects) return <Skeleton/>
 
   const { title, stack, thumbnail, text, briefText, featureImage, featureImage2, mobile, tablet } = projects.fields
-  console.log(projects)
   return (
     <div className={styles.container}>
                 
@@ -103,8 +102,7 @@ export default function RecipeDetails({ projects }) {
                   <div className={styles.field_image}>
                       <Image src={'https:' + featureImage.fields.file.url} 
                         width={featureImage.fields.file.details.image.width}
-                        height={featureImage.fields.file.details.image.height}
-                        placeholder="placeholder"/>
+                        height={featureImage.fields.file.details.image.height}/>
                   </div>
                   </BrowserFrame>
                 </div>
