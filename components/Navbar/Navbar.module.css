@@ -1,0 +1,144 @@
+.toolbar_up{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background: rgba(13, 13, 13, 0.4);
+    transform: translateY(0);
+    transition: transform 0.3s ease-out;
+    z-index: 100;
+}
+.toolbar_scrolled{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background: rgba(13, 13, 13, 0.4);
+    transform: translateY(-110%);
+    transition: transform 0.7s ease-out;
+    z-index: 100;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+.items ul{
+    list-style: none;
+    display: flex;
+    margin-right: 1.5rem;
+    padding: 0;
+    position: relative;
+}
+.items li{
+    padding: 0 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.items a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+.items a:hover{
+    color: var(--nav-hover);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+}
+.logo a:hover {
+    color: var(--nav-hover);
+}
+.switch{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moon_button, .moon_button_dis{
+    width: 35px;
+    cursor: pointer;
+    height: 35px;
+}
+.sun_button, .sun_button_dis{
+    width: 38px;
+    cursor: pointer;
+    height: 38px;
+}
+.sun_button, .moon_button{
+    transform: translateY(0); 
+    transition: transform 0.5s ease;
+    transition-delay: 0.3s;
+    visibility: visible;
+    position: absolute;
+}
+.sun_button_dis, .moon_button_dis{
+transform: translateY(-150%);
+    transition: all 0.5s ease;
+    visibility: hidden;
+    position: absolute;
+}
+
+.burger_menu{
+    display: none;
+    
+}
+@media screen and (max-width: 800px) {
+    .navbar {
+      justify-content: none;
+    }
+    .items {
+      display: none;
+    }
+    .burger_menu{
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+    }
+    .logo {
+      margin-left: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .logo a {
+      font-size: 1.5rem;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+    .logo:after {
+      width: 12rem;
+      height: 0.8rem;
+      margin-top: 0.6rem;
+    }
+    .moon_button{
+        display: none;
+    }
+    .moon_button_dis{
+        display: none;
+    }   
+  }

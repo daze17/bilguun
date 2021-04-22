@@ -1,0 +1,91 @@
+.side_drawer {
+    height: 100%;
+    background: var(--bg-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    transform: translateY(-110%); 
+    transition: all 0.5s ease;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25rem;
+  }
+.side_drawer_open {
+    transform: translateY(0%);
+    visibility: visible;
+    overflow: auto;
+    height: 100%;
+    background: var(--bg-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25rem;
+  }
+.side_drawer ul, .side_drawer_open ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+.side_drawer li, .side_drawer_open li {
+    margin-bottom: 30px;
+}
+  
+.side_drawer a, .side_drawer_open a {
+    /* font-family: 'PT Serif', serif; */
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  
+  .side_drawer a:hover, .side_drawer_open a:hover,
+  .side_drawer a:active, .side_drawer_open a:active {
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+  
+  /* .side_drawer .resume, .side_drawer_open .resume {
+    transition: 0.3s;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border-width: 4px;
+    border-style: solid;
+  }
+  
+  .side_drawer_open .resume:hover,
+  .side_drawer_open .resume:active {
+    color: #fff;
+  } */
+  .close{
+    opacity: 1;
+  }
+  .side-sun-button, .side-moon-button{
+    width: 35px;
+    cursor: pointer;
+    height: 35px;
+    opacity: 1;
+  }
+  .side-sun-button:hover, .side-moon-button:hover{
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+  .switch_button_container{
+    cursor: pointer;
+  }
+  

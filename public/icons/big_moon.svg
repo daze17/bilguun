@@ -1,0 +1,20 @@
+<svg width="180" height="187" viewBox="0 0 180 187" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.2">
+<ellipse opacity="0.4" cx="86.1461" cy="95.4278" rx="86.1461" ry="91.5722" fill="#C4C4C4"/>
+<ellipse opacity="0.4" cx="93.8539" cy="91.5722" rx="86.1461" ry="91.5722" fill="white"/>
+<g opacity="0.89">
+<ellipse opacity="0.3" cx="122.229" cy="145.936" rx="9.25693" ry="10.2185" fill="#626060"/>
+<ellipse opacity="0.3" cx="120.34" cy="144.685" rx="9.25693" ry="10.2185" fill="#626060"/>
+<ellipse opacity="0.21" cx="121.096" cy="144.685" rx="9.25693" ry="10.2185" fill="#626060"/>
+</g>
+<g opacity="0.89">
+<ellipse opacity="0.3" cx="45.6214" cy="117.348" rx="18.3081" ry="19.5286" fill="#626060"/>
+<ellipse opacity="0.3" cx="41.885" cy="114.956" rx="18.3081" ry="19.5286" fill="#626060"/>
+<ellipse opacity="0.21" cx="43.3797" cy="114.956" rx="18.3081" ry="19.5286" fill="#626060"/>
+</g>
+<ellipse opacity="0.3" cx="38.1025" cy="87.3643" rx="9.05122" ry="9.99138" fill="#43444C"/>
+<ellipse opacity="0.3" cx="36.2553" cy="86.1409" rx="9.05122" ry="9.99138" fill="#404048"/>
+<ellipse opacity="0.21" cx="36.9941" cy="86.1409" rx="9.05122" ry="9.99138" fill="#404048"/>
+<path opacity="0.3" d="M146 54C146 63.9411 137.493 72 127 72C116.507 72 108 63.9411 108 54C108 44.0589 116.507 36 127 36C137.493 36 146 44.0589 146 54Z" fill="#494949"/>
+</g>
+</svg>

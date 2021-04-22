@@ -1,0 +1,28 @@
+.container {
+    right: 1rem;
+}
+
+.container .toggle_button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color)
+}
+
+.container .toggle_button span {
+    justify-self: center;
+    font-size: 1.5rem;
+}
+
+.toggle_button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .toggle_button span {
+        margin: 0;
+    }
+}

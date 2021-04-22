@@ -1,0 +1,45 @@
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25rem;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    position: relative;
+}
+.container p {
+    font-size: 0.9rem;
+    margin-top: 0;
+    transition: 0.5s;
+}
+.container p:hover {
+    transition: 0.5s;
+    background-color: #f89db8;
+    color: #000;
+}
+.footer-svg{
+    width: 100%;
+    min-width: 25rem;
+    height: 100px;
+    position: absolute;
+}
+
+.icons{
+    color: var(--icon-color);
+    font-size: 25px;
+    margin: 0 0.5rem 0 0.5rem;
+    transition: 0.3s;
+}
+.icons:hover{
+    color: var(--icon-hover);
+
+}
+.container a{
+    text-decoration: inherit;
+    color: inherit;
+}
+.copyright{
+    position: absolute;
+    bottom: 0;
+}
