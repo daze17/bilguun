@@ -103,7 +103,8 @@ export default function RecipeDetails({ projects }) {
                   <div className={styles.field_image}>
                       <Image src={'https:' + featureImage.fields.file.url} 
                         width={featureImage.fields.file.details.image.width}
-                        height={featureImage.fields.file.details.image.height}/>
+                        height={featureImage.fields.file.details.image.height}
+                        placeholder="placeholder"/>
                   </div>
                   </BrowserFrame>
                 </div>
