@@ -1,4 +1,5 @@
 import { createClient } from 'contentful'
+import Head from 'next/head'
 import Image from 'next/image'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import styles from '../../styles/Project.module.css'
@@ -57,7 +58,10 @@ export default function RecipeDetails({ projects }) {
   const { title, stack, thumbnail, text, briefText, featureImage, featureImage2, mobile, tablet } = projects.fields
   return (
     <div className={styles.container}>
-                
+        <Head>
+          <title>{title}</title>
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>       
         <div className={styles.section_top}> 
             <div className={styles.wrapper}>
               <div className={styles.grid}>

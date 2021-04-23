@@ -29,7 +29,7 @@ export default function SideDrawer({ isShown, closeDrawer, setDarkMode, darkMode
     const pages = ([
           {title: 'Home', id: 0, slug: '/#'},
           {title: 'About', id: 1, slug: '/#about'},
-          {title: 'Work', id: 2, slug: '/#work'},
+          {title: 'Projects', id: 2, slug: '/#projects'},
           {title: 'Contact', id: 3, slug: '/#contact'},
           {title: 'Resume', id: 4, slug: '/#'}
       ])

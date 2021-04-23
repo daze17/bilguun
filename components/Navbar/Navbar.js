@@ -30,9 +30,9 @@ export default function Navbar({scroll, toggleDrawer, setDarkMode, checked}) {
                         </li>
                         <li>
                             {router.pathname === "/" ?
-                            <AnchorLink href="#works">Works</AnchorLink>
+                            <AnchorLink href="#projects">Projects</AnchorLink>
                             :
-                            <Link href="/#works">Works</Link>
+                            <Link href="/#projects">Projects</Link>
                             }
                         </li>
                         <li>

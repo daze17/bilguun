@@ -22,10 +22,7 @@ const variants = {
     }
   };
 
-
-  
 const MenuItem = ({ title, closeDrawer, slug }) => {
-
     return (
       <motion.li
       variants={variants}
