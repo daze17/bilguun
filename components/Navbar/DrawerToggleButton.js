@@ -1,13 +1,12 @@
 import React from 'react'
 import styles from './DrawerToggleButton.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FaBars } from 'react-icons/fa';
 
 const DrawerToggleButton = ({ click }) =>{
     return(
         <div className={styles.container}>
             <button className={styles.toggle_button} onClick={click} >
-            <FontAwesomeIcon icon={faBars} size="2x" />
+            <FaBars size='2.5em' />
             </button>
         </div>
     )

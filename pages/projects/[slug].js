@@ -69,6 +69,7 @@ export default function RecipeDetails({ projects }) {
                   <h1 className={styles.project_title}>{title}</h1>
                   {documentToReactComponents(text)}
                   <div className={styles.stacks}>
+                  
                   {stack.map(tool => (
                       <h3 key={tool}>{tool}</h3>
                   ))}
