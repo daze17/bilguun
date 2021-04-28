@@ -25,6 +25,7 @@ export default function Home({works}) {
       <Head>
         <title>Home | Bilguun</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="Bilguun Baasansuren"/>
         <link rel="shortcut icon" href="https://cdn.myanimelist.net/r/360x360/images/characters/7/391655.jpg?s=4ef9dad16dcddb5da22698fe9881cd46"/>
       </Head>
       <Header/>
