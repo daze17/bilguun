@@ -12,7 +12,7 @@ export default function Footer() {
                 <p><a href="tel:+976 89810500">+976 89810500</a></p>
                 <p><a href="mailto:bilguun889@gmail.com">bilguun889@gmail.com</a></p>
                 <div>
-                    <a href="https://www.facebook.com/profile.php?id=100011136487427" target="_blank" rel="noreferrer"> <Icon icon={facebookRect} className={styles.icons} /> </a>
+                    <a href="https://www.facebook.com/bilguun1717/" target="_blank" rel="noreferrer"> <Icon icon={facebookRect} className={styles.icons} /> </a>
                     <a href="https://instagram.com" target="_blank" rel="noreferrer"> <Icon icon={instagramFill} className={styles.icons} /> </a>
                     <a href="https://github.com/daze17" target="_blank" rel="noreferrer"> <Icon icon={githubIcon} className={styles.icons} /> </a>
                     <a href="https://github.com/daze17" target="_blank" rel="noreferrer"> <Icon icon={linkedinFill} className={styles.icons} /> </a>
