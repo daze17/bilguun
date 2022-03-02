@@ -29,7 +29,7 @@ export default function Layout({ children }) {
         }
         lastScrollTop = st <= 50 ? 50 : st;
     }
-    const darkMode = useDarkMode(false);
+    const darkMode = useDarkMode(true);
     return (
         <div>
             <Navbar 
