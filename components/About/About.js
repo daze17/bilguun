@@ -34,12 +34,11 @@ export default function About() {
                                     <Image src="/pfp.jpg" width={225} height={225}/>
                                 </div>
                                 <p className={styles.text}>                     
-                                Hello! I'm Bilguun Baasansuren, a front-end developer based in Ulaanbaatar Mongolia.
+                                Hello! I'm Bilguun Baasansuren, a full-stack developer based in Ulaanbaatar Mongolia.
                                 I'm comfortable with creating UI and UX designs by using Figma.
-                                With my experience, I can build Single Page Applications by using HTML, CSS, JavaScript (or TypeScript) and React with Gatsby or NextJS.
+                                With my experience, I can build Single Page Applications by using HTML, CSS, JavaScript and React with NextJS.
                                 I am adaptable and confident to work into new team, furthermore I am able to pick up new frameworks to create
-                                newer things. 
-                                Also, I have a basic knowledge on Node js and Express js to make a back-end programming (Still learning).
+                                newer things.
                                 </p>
                                 {/* <Link href="/about">
                                     <button className={styles.button}>
