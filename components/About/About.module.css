@@ -68,6 +68,7 @@
     font-size: 2.5rem;
     font-style: normal;
     color: var(--secondary-color);
+    text-align: center;
 }
 .text{
     margin: 0;

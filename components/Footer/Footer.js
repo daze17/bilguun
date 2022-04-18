@@ -13,7 +13,7 @@ export default function Footer() {
                 <p><a href="mailto:bilguun889@gmail.com">bilguun889@gmail.com</a></p>
                 <div>
                     <a href="https://www.facebook.com/bilguun1717/" target="_blank" rel="noreferrer"> <Icon icon={facebookRect} className={styles.icons} /> </a>
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer"> <Icon icon={instagramFill} className={styles.icons} /> </a>
+                    <a href="https://instagram.com/bilguun_1717" target="_blank" rel="noreferrer"> <Icon icon={instagramFill} className={styles.icons} /> </a>
                     <a href="https://github.com/daze17" target="_blank" rel="noreferrer"> <Icon icon={githubIcon} className={styles.icons} /> </a>
                     <a href="https://github.com/daze17" target="_blank" rel="noreferrer"> <Icon icon={linkedinFill} className={styles.icons} /> </a>
                 </div>
