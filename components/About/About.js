@@ -44,7 +44,7 @@ export default function About() {
               ABOUT
             </h1>
             <div className={styles.pfp}>
-              <Image src="/pfp.jpg" width={225} height={225} />
+              <Image src="/bilguunpfp2.jpg" width={225} height={225} />
             </div>
             <p className={styles.text}>
               Hello! I'm Bilguun Baasansuren, a full-stack developer based in

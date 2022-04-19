@@ -21,7 +21,7 @@ a {
 * {
   box-sizing: border-box;
 }
-:root{
+:root {
   --primary-color: #000;
   --secondary-color: #f32c68;
   --nav-hover: #f89db8;
